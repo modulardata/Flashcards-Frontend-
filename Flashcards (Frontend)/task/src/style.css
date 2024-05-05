@@ -1,0 +1,66 @@
+body {
+    background: url("https://stepik.org/media/attachments/lesson/374893/world.png") no-repeat center center fixed;
+    background-size: 80%;
+}
+
+#container {
+    display: grid;
+    grid-template: auto 3fr / 3fr;
+    gap: 1rem;
+    color: white;
+    inline-size: fit-content;
+    block-size: fit-content;
+    margin: auto;
+    padding: 1rem;
+    font-family: Muli, sans-serif;
+    font-size: small;
+    border-radius: 0.4rem;
+}
+
+#header, .card {
+    padding: 0.2rem;
+}
+
+#header {
+    grid-column: span 3;
+    margin: inherit;
+    line-height: 0.8;
+}
+
+#cards {
+    display: grid;
+    grid-area: span 3 / span 3;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.card {
+    background-color: rgb(249, 239, 229);
+    border: .1rem solid black;
+    border-radius: 0.4rem;
+    inline-size: 8vi;
+    block-size: 8vi;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+h1 {
+    margin: 0;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(67, 90, 88);
+    border-radius: 0.4rem;
+}
+
+p {
+    text-align: center;
+    color: rgb(253, 156, 66);
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1rem;
+}
+

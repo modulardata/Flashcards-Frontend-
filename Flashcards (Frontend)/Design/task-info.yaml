@@ -12,6 +12,10 @@ files:
   - name: test/test.js
     visible: false
     learner_created: false
-feedback_link: https://hyperskill.org/projects/115/stages/626/implement#comment
+feedback_link: https://hyperskill.org/learn/step/10246#comment
 status: Solved
+feedback:
+  message: Well done! You've finished the project. Select a new project on <a href="https://hyperskill.org/projects">Hyperskill</a>
+    to continue learning.
+  time: "Sun, 05 May 2024 18:24:15 UTC"
 record: 1
