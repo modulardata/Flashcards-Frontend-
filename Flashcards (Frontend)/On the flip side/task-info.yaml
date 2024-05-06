@@ -3,9 +3,6 @@ files:
   - name: src/index.html
     visible: true
     learner_created: false
-  - name: src/script.js
-    visible: true
-    learner_created: false
   - name: src/style.css
     visible: true
     learner_created: false
@@ -13,5 +10,9 @@ files:
     visible: false
     learner_created: false
 feedback_link: https://hyperskill.org/learn/step/10247#comment
-status: Solved
+status: Unchecked
+feedback:
+  message: "No tests have run. For more information, see <a href=\"https://plugins.jetbrains.com/plugin/10081-jetbrains-academy/docs/troubleshooting-guide.html#no_tests_have_run\"\
+    >the Troubleshooting guide</a>"
+  time: "Mon, 06 May 2024 12:34:34 UTC"
 record: 2

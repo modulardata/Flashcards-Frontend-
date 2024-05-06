@@ -1,7 +1,6 @@
 # Created by https://www.toptal.com/developers/gitignore/api/windows,linux,node,yarn,python,kotlin
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,linux,node,yarn,python,kotlin
 
-### Kotlin ###
 # Compiled class file
 *.class
 
@@ -27,7 +26,6 @@
 hs_err_pid*
 replay_pid*
 
-### Linux ###
 *~
 
 # temporary files which can be created if a process still has a handle open of a deleted file
@@ -42,7 +40,6 @@ replay_pid*
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
 
-### Node ###
 # Logs
 logs
 npm-debug.log*
@@ -172,7 +169,6 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-### Node Patch ###
 # Serverless Webpack directories
 .webpack/
 
@@ -181,7 +177,6 @@ dist
 # SvelteKit build / generate output
 .svelte-kit
 
-### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -340,7 +335,6 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-### Python Patch ###
 # Poetry local configuration file - https://python-poetry.org/docs/configuration/#local-configuration
 poetry.toml
 
@@ -350,7 +344,6 @@ poetry.toml
 # LSP config files
 pyrightconfig.json
 
-### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
 Thumbs.db:encryptable
@@ -376,7 +369,6 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-### yarn ###
 # https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
 
 .yarn/*
